@@ -82,7 +82,7 @@ Body{
     cursor: pointer;
 }
 
-.aboutme a{
+.skills a{
     color: var(--accent);
 }
 
@@ -143,17 +143,3 @@ i:hover{
 }
 
 /* End copy from index */
-
-/* Content */
-#content p{
-    padding-top: var(--spsc-3);
-}
-
-#content a:hover{
-    color: var(--accent);
-}
-
-#content{
-    display: flex;
-    align-items: center;
-}

@@ -55,6 +55,8 @@ Body{
 #navHeader {
      position: relative;
      height: 30%;
+     display: flex;
+     align-items: center;
 }
 
 .navTab a{
@@ -108,6 +110,7 @@ Body{
      #mobinavHeader{
           display: flex;
           justify-content: space-between;
+          align-items: center;
           margin-right: var(--spsc-5);
      }
 
@@ -115,7 +118,7 @@ Body{
           justify-content: center;
      }
 
-     .navTab{
+     #mobiGroup{
           display: none;
      }
 
