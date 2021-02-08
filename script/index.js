@@ -7,6 +7,9 @@ $("#menu").on("click", function(){
 ScrollReveal({ reset: true });
 ScrollReveal().reveal('.scrollReveal', { scale: 0.85 });
 
+// Page Smooth Transition
+
+
 // Skills Cloud
 var entries = [ 
     
