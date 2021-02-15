@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css');
 
@@ -8,7 +8,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', monospace;
+    font-family: 'Poppins', sans-serif;
     line-height: var(--sc-C);
 }
 
@@ -169,10 +169,12 @@ h2 {
 
 h3 {
     font-size: var(--fs-1);
+    font-weight: 200;
 }
 
 p {
     font-size: var(--fs-2);
+    font-weight: 200;
 }
 
 .logo{
@@ -212,6 +214,15 @@ a{
 em{
     color: var(--accent);
     font-style: normal;
+}
+
+.amp a{
+    color: var(--accent);
+    font-weight: 400;
+}
+
+.amp a:hover{
+    color: var(--text);
 }
 
 /* MOTION */

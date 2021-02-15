@@ -34,11 +34,3 @@ Body{
 #content p{
     padding: var(--spsc-3) var(--sp-base) var(--sp-base) var(--sp-base);
 }
-
-#content a{
-    color: var(--accent);
-}
-
-#content a:hover{
-    color: var(--text);
-}
